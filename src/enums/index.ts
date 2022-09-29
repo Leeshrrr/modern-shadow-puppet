@@ -47,15 +47,14 @@ export enum FaceShape {
 }
 
 export enum TopsShape {
-  Fonze = 'fonze',
-  Funny = 'funny',
-  Clean = 'clean',
-  Punk = 'punk',
-  Danny = 'danny',
-  Wave = 'wave',
-  Turban = 'turban',
-  Pixie = 'pixie',
-  Beanie = 'beanie',
+  Bun = 'bun',
+  Lowtail = 'lowtail',
+  Short = 'short',
+  Bob = 'bob',
+  Hightail = 'hightail',
+  Braid = 'braid',
+  Longcurly = 'longcurly',
+  Longstraight = 'longstaight',
 }
 
 export enum EarShape {
@@ -112,9 +111,7 @@ export enum GlassesShape {
 }
 
 export enum ClothesShape {
-  Crew = 'crew',
-  Collared = 'collared',
-  Open = 'open',
+  Suntop = 'suntop',
 }
 
 export type WidgetShape =

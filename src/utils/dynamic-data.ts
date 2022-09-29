@@ -44,10 +44,8 @@ const widgetData: Data = {
   },
 
   [WidgetType.Clothes]: {
-    [ClothesShape.Collared]: () =>
-      import(`../assets/widgets/clothes/collared.svg?raw`),
-    [ClothesShape.Crew]: () => import(`../assets/widgets/clothes/crew.svg?raw`),
-    [ClothesShape.Open]: () => import(`../assets/widgets/clothes/open.svg?raw`),
+    [ClothesShape.Suntop]: () =>
+      import(`../assets/widgets/clothes/suntop.svg?raw`),
   },
 
   [WidgetType.Earrings]: {
@@ -95,15 +93,17 @@ const widgetData: Data = {
   },
 
   [WidgetType.Tops]: {
-    [TopsShape.Beanie]: () => import(`../assets/widgets/tops/beanie.svg?raw`),
-    [TopsShape.Clean]: () => import(`../assets/widgets/tops/clean.svg?raw`),
-    [TopsShape.Danny]: () => import(`../assets/widgets/tops/danny.svg?raw`),
-    [TopsShape.Fonze]: () => import(`../assets/widgets/tops/fonze.svg?raw`),
-    [TopsShape.Funny]: () => import(`../assets/widgets/tops/funny.svg?raw`),
-    [TopsShape.Pixie]: () => import(`../assets/widgets/tops/pixie.svg?raw`),
-    [TopsShape.Punk]: () => import(`../assets/widgets/tops/punk.svg?raw`),
-    [TopsShape.Turban]: () => import(`../assets/widgets/tops/turban.svg?raw`),
-    [TopsShape.Wave]: () => import(`../assets/widgets/tops/wave.svg?raw`),
+    [TopsShape.Bun]: () => import(`../assets/widgets/tops/bun.svg?raw`),
+    [TopsShape.Lowtail]: () => import(`../assets/widgets/tops/lowtail.svg?raw`),
+    [TopsShape.Short]: () => import(`../assets/widgets/tops/short.svg?raw`),
+    [TopsShape.Bob]: () => import(`../assets/widgets/tops/bob.svg?raw`),
+    [TopsShape.Hightail]: () =>
+      import(`../assets/widgets/tops/hightail.svg?raw`),
+    [TopsShape.Braid]: () => import(`../assets/widgets/tops/braid.svg?raw`),
+    [TopsShape.Longcurly]: () =>
+      import(`../assets/widgets/tops/longcurly.svg?raw`),
+    [TopsShape.Longstraight]: () =>
+      import(`../assets/widgets/tops/longstraight.svg?raw`),
   },
 }
 
@@ -130,10 +130,8 @@ const previewData: Data = {
   },
 
   [WidgetType.Clothes]: {
-    [ClothesShape.Collared]: () =>
-      import(`../assets/preview/clothes/collared.svg?raw`),
-    [ClothesShape.Crew]: () => import(`../assets/preview/clothes/crew.svg?raw`),
-    [ClothesShape.Open]: () => import(`../assets/preview/clothes/open.svg?raw`),
+    [ClothesShape.Suntop]: () =>
+      import(`../assets/preview/clothes/suntop.svg?raw`),
   },
 
   [WidgetType.Earrings]: {
@@ -181,15 +179,17 @@ const previewData: Data = {
   },
 
   [WidgetType.Tops]: {
-    [TopsShape.Beanie]: () => import(`../assets/preview/tops/beanie.svg?raw`),
-    [TopsShape.Clean]: () => import(`../assets/preview/tops/clean.svg?raw`),
-    [TopsShape.Danny]: () => import(`../assets/preview/tops/danny.svg?raw`),
-    [TopsShape.Fonze]: () => import(`../assets/preview/tops/fonze.svg?raw`),
-    [TopsShape.Funny]: () => import(`../assets/preview/tops/funny.svg?raw`),
-    [TopsShape.Pixie]: () => import(`../assets/preview/tops/pixie.svg?raw`),
-    [TopsShape.Punk]: () => import(`../assets/preview/tops/punk.svg?raw`),
-    [TopsShape.Turban]: () => import(`../assets/preview/tops/turban.svg?raw`),
-    [TopsShape.Wave]: () => import(`../assets/preview/tops/wave.svg?raw`),
+    [TopsShape.Bun]: () => import(`../assets/preview/tops/bun.svg?raw`),
+    [TopsShape.Lowtail]: () => import(`../assets/preview/tops/lowtail.svg?raw`),
+    [TopsShape.Short]: () => import(`../assets/preview/tops/short.svg?raw`),
+    [TopsShape.Bob]: () => import(`../assets/preview/tops/bob.svg?raw`),
+    [TopsShape.Hightail]: () =>
+      import(`../assets/preview/tops/hightail.svg?raw`),
+    [TopsShape.Braid]: () => import(`../assets/preview/tops/braid.svg?raw`),
+    [TopsShape.Longcurly]: () =>
+      import(`../assets/preview/tops/longcurly.svg?raw`),
+    [TopsShape.Longstraight]: () =>
+      import(`../assets/preview/tops/longstraight.svg?raw`),
   },
 }
 

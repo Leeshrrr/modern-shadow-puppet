@@ -27,7 +27,6 @@ interface Widget<Shape> {
 
 type AvatarWidgets = {
   face: Widget<FaceShape>
-  tops: Widget<TopsShape>
   ear: Widget<EarShape>
   earrings: Widget<EarringsShape>
   eyebrows: Widget<EyebrowsShape>
@@ -37,6 +36,7 @@ type AvatarWidgets = {
   mouth: Widget<MouthShape>
   beard: Widget<BeardShape>
   clothes: Widget<ClothesShape>
+  tops: Widget<TopsShape>
 }
 
 export interface AvatarOption {
@@ -56,7 +56,7 @@ export interface AvatarSettings {
 
   wrapperShape: WrapperShape[]
   faceShape: FaceShape[]
-  topsShape: TopsShape[]
+
   earShape: EarShape[]
   earringsShape: EarringsShape[]
   eyebrowsShape: EyebrowsShape[]
@@ -66,7 +66,7 @@ export interface AvatarSettings {
   beardShape: BeardShape[]
   glassesShape: GlassesShape[]
   clothesShape: ClothesShape[]
-
+  topsShape: TopsShape[]
   commonColors: string[]
   backgroundColor: string[]
   skinColor: string[]
